@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/mah_pic.jpg" alt="Mahmudul Haque" width="80" >
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Mahmudul Haque</h1>
+
+          <p class="title">Researcher and Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mhaqu016@fiu.edu" class="contact-link">mhaqu016@fiu.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+17542697139" class="contact-link">+1 (754) 269-7139</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1997-01-01">Jan 01, 1997</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Miami, Florida, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/immhr75/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/im_mahmudul" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mahmudul-haque-ba96b0148/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+	  <li class="social-item">
+		<a href="https://github.com/mhr75" class="social-link">
+		  <ion-icon name="logo-github"></ion-icon>
+		</a>
+	      </li>
+	      <li class="social-item">
+		<a href="https://scholar.google.com/citations?user=Ah87RL0AAAAJ&hl=en" class="social-link">
+		  <ion-icon name="logo-google"></ion-icon>
+		</a>
+	      </li>        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a creative reseacher and developer from Dhaka, Bangladesh. Now pursuing my higher studies in United States of America.
+            I enjoy teaching, leading, developing and research new methodologies. 
+          </p>
+
+          <p>
+		Passionate about delving into the realm of AI field research, 
+		my enthusiasm extends to hands-on development work. My journey includes crafting diverse software solutions,
+		ranging from a comprehensive university student information system to designing mobile applications and websites. 
+		My ardor for the computer science field knows no bounds, fueled by a relentless curiosity and an unwavering commitment to learning. 
+		Eager to embrace new challenges, I am always open to expanding my knowledge and skills in this ever-evolving domain.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm </h3>
+
+          <ul class="service-list">
+		<li class="service-item">
+	  
+			<div class="service-icon-box">
+			  <img src="./assets/images/research.svg" alt="research icon" width="50">
+			</div>
+	  
+			<div class="service-content-box">
+			  <h4 class="h4 service-item-title">Researcher</h4>
+	  
+			  <p class="service-item-text">
+				Passionate researcher with a multifaceted interest spanning Federated Learning, 
+				Machine/Deep Learning, Education, Data Science/Mining, and Bio-Medical Bio-Signals.
+			  </p>
+			</div>
+	  
+		      </li>
+
+		      <li class="service-item">
+
+			<div class="service-icon-box">
+			  <img src="./assets/images/icon-design.svg
+			  " alt="design icon" width="40">
+			</div>
+	  
+			<div class="service-content-box">
+			  <h4 class="h4 service-item-title">Data Analyzer</h4>
+	  
+			  <p class="service-item-text">
+			    
+	  With a keen eye for uncovering insights, transforming raw data into meaningful narratives, and leveraging advanced analytical tools to drive informed decision-making.
+			  </p>
+			</div>
+	  
+		      </li>
+
+		      <li class="service-item">
+
+			<div class="service-icon-box">
+			  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+			</div>
+	  
+			<div class="service-content-box">
+			  <h4 class="h4 service-item-title">Web developer</h4>
+	  
+			  <p class="service-item-text">
+				Experienced web developer with a flair for crafting seamless and visually engaging digital experiences. 
+				</p>
+			</div>
+	  
+		      </li>
+
+           
+	    <li class="service-item">
+
+		<div class="service-icon-box">
+		  <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+		</div>
+  
+		<div class="service-content-box">
+		  <h4 class="h4 service-item-title">Mobile apps Developer</h4>
+  
+		  <p class="service-item-text">
+		    Professionally developed applications for iOS and Android using FLutter or React.
+		  </p>
+		</div>
+  
+	      </li>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Programming Language</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Python.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Python</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I have been writing code in python for 4 years and i love this language because 
+		    Python is a versatile, high-level programming language known for its readability 
+		    and simplicity, making it widely used in fields such as web development,
+		     data science, artificial intelligence, and automation.
+		
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/java.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Java</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+			Java served as my gateway into the world of computer science, 
+			being my first programming language. 
+			Its rigorous syntax became a crucial teacher, 
+			imparting essential concepts like encapsulation, 
+			polymorphism, and inheritance. 
+			Through Java, I gained a foundational understanding that has 
+			shaped my approach to software development.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/js.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>JavaScript</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+			
+I delved into JavaScript when tasked with building a website that required 
+enhanced functionality. JavaScript breathed life into the website, providing 
+the power to create dynamic and interactive elements. Without JavaScript,
+ the site felt static and 
+lacked the engaging user experience that this language brought to the forefront.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      
+      
+	      <!--
+		- testimonials modal
+	      -->
+      
+	      <div class="modal-container" data-modal-container>
+      
+		<div class="overlay" data-overlay></div>
+      
+		<section class="testimonials-modal">
+      
+		  <button class="modal-close-btn" data-modal-close-btn>
+		    <ion-icon name="close-outline"></ion-icon>
+		  </button>
+      
+		  <div class="modal-img-wrapper">
+		    <figure class="modal-avatar-box">
+		      <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+		    </figure>
+      
+		    <img src="./assets/images/icon-quote.svg" alt="quote icon">
+		  </div>
+      
+		  <div class="modal-content">
+      
+		    <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+      
+		    <time datetime="2021-12-14">14 Dec, 2023</time>
+      
+		    <div data-modal-text>
+		      <p>
+			Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+			lot of experience
+			and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+			consectetur adipiscing
+			elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+		      </p>
+		    </div>
+      
+		  </div>
+      
+		</section>
+      
+	      </div>
+
+        <!--
+          - clients
+        -->
+
+        <section class="Clients">
+
+          <h3 class="h3 clients-title">Classes Attended in</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.fiu.edu/">
+                <img src="./assets/images/FIU_2.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.bracu.ac.bd/">
+                <img src="./assets/images/brac.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.gsctd.edu.bd/">
+                <img src="./assets/images/govt.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.nationalidealschool.edu.bd/">
+                <img src="./assets/images/NIS.jpg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Florida International University</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Master's of Science in Computer Science
+              </p>
+	      <p class="timeline-text">
+		CGPA: 3.90 out of 4.00
+	      </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+		<h4 class="h4 timeline-item-title">BRAC University</h4>
+  
+		<span>2020 — 2021</span>
+  
+		<p class="timeline-text">
+		  Master's of Science in Computer Science
+		</p>
+		<p class="timeline-text">
+		  CGPA: 3.93 out of 4.00 (credit transfered to FIU)
+		</p>
+  
+	      </li>
+
+	      <li class="timeline-item">
+
+		<h4 class="h4 timeline-item-title">BRAC University</h4>
+  
+		<span>2017 — 2020</span>
+  
+		<p class="timeline-text">
+		  Bachelor's of Science in Computer Science
+		</p>
+		<p class="timeline-text">
+		  CGPA: 3.56 out of 4.00
+		</p>  
+	      </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graduate Teaching Assistant</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                I served as a graduate teaching assistant at Florida International University.
+              </p>
+	      <p class="timeline-text">
+                Graduate Course:  Principles of Data Mining (3 Semesters)
+              </p>
+	      <p class="timeline-text">
+                Undergraduate Courses:  Web development (1 semester), Software Engineering (1 semester)
+              </p>
+	      
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant</h4>
+
+              <span>2020 (July) — 2020 (December)</span>
+
+              <p class="timeline-text">
+                I worked as research assistant under Dr. Golam Rabiul Alam supervison at BRAC University. We together explored Federated Learning, Deep Learning, Machine Learning, etc. Within six months we were able to publish a conference paper.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer & App Developer</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                I worked as a Flutter developer at IOTA IT Limited in Bangladesh. During working at IOTA IT, i learnt Figma, app developing and web development.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My work/research interests</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Artificial Intelligence (ML/DL/FL/NLP)</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+
+	      <li class="skills-item">
+
+		<div class="title-wrapper">
+		  <h5 class="h5">Data Mining/Analyst</h5>
+		  <data value="90">90%</data>
+		</div>
+  
+		<div class="skill-progress-bg">
+		  <div class="skill-progress-fill" style="width: 90%;"></div>
+		</div>
+  
+	      </li>
+
+
+            <li class="skills-item">
+
+		<div class="title-wrapper">
+		  <h5 class="h5">Developer (Web/App)</h5>
+		  <data value="85">85%</data>
+		</div>
+  
+		<div class="skill-progress-bg">
+		  <div class="skill-progress-fill" style="width: 85%;"></div>
+		</div>
+  
+	      </li>
+
+
+	    <li class="skills-item">
+
+		<div class="title-wrapper">
+		  <h5 class="h5">Networking</h5>
+		  <data value="50">50%</data>
+		</div>
+  
+		<div class="skill-progress-bg">
+		  <div class="skill-progress-fill" style="width: 50%;"></div>
+		</div>
+  
+	      </li>
+
+	      <li class="skills-item">
+
+		<div class="title-wrapper">
+		  <h5 class="h5">Signals (EEG/ECG/EKG)</h5>
+		  <data value="80">80%</data>
+		</div>
+  
+		<div class="skill-progress-bg">
+		  <div class="skill-progress-fill" style="width: 80%;"></div>
+		</div>
+  
+	      </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Travel</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/destin.jpg" alt="Destin, Florida" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Travel</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2023/11/25 - 2023/11/30</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Destin, Florida</h3>
+
+                  <p class="blog-text">
+			Destin, Florida, is a coastal gem that captivates visitors with its sugar-white sand beaches and emerald-green waters, creating a picturesque paradise along the Gulf of Mexico. Renowned for its world-class fishing, vibrant harbor, and charming seaside atmosphere, Destin offers a perfect blend of relaxation and adventure, making it an ideal destination for both families and travelers seeking a rejuvenating beach getaway. With its stunning sunsets, diverse culinary scene, and a myriad of water activities, Destin stands as an enchanting destination that leaves a lasting impression on all who bask in its coastal beauty.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+		<a href="#">
+  
+		  <figure class="blog-banner-box">
+		    <img src="./assets/images/north_carolina.jpg" alt="North Carolina" loading="lazy">
+		  </figure>
+  
+		  <div class="blog-content">
+  
+		    <div class="blog-meta">
+		      <p class="blog-category">Travel</p>
+  
+		      <span class="dot"></span>
+  
+		      <time datetime="2022-02-23">2023/07/14 - 2023/07/17</time>
+		    </div>
+  
+		    <h3 class="h3 blog-item-title">North Carolina</h3>
+  
+		    <p class="blog-text">
+			North Carolina greeted me with its breathtaking hilly landscapes, a stark contrast to the flat terrains I was accustomed to in Miami. Driving through this picturesque state felt like navigating through a living painting, each twist and turn revealing another layer of its natural beauty. The serene vistas and lush greenery were a refreshing change, evoking a sense of awe and wonder with every passing mile. Those three days in North Carolina left an indelible mark, reminding me of the diverse and captivating landscapes that the United States has to offer.
+		</p>
+  
+		  </div>
+  
+		</a>
+	      </li>
+
+	   
+          </ul>
+
+        </section>
+
+	<header>
+		<h2 class="h2 article-title">Food</h2>
+	      </header>
+      
+	      <section class="blog-posts">
+      
+		<ul class="blog-posts-list">
+
+		  <li class="blog-post-item">
+		      <a href="#">
+	
+			<figure class="blog-banner-box">
+			  <img src="./assets/images/dim.jpg" alt="Dim Bhaji" loading="lazy">
+			</figure>
+	
+			<div class="blog-content">
+	
+			  <div class="blog-meta">
+			    <p class="blog-category">Cook</p>
+	
+			    <span class="dot"></span>
+	
+			    <time datetime="2022-02-23">2017/01/10</time>
+			  </div>
+	
+			  <h3 class="h3 blog-item-title">Fried Egg</h3>
+	
+			  <p class="blog-text">
+				I really love fried eggs, and my mom taught me how to make them. Even though it seems simple, turning it into the most delicious meal is a skill. I appreciate my mom for showing me how to make this fantastic dish.</p>
+
+			</div>
+	
+		      </a>
+		    </li>
+
+		    <li class="blog-post-item">
+			<a href="#">
+	  
+			  <figure class="blog-banner-box">
+			    <img src="./assets/images/golab_jamun.jpg" alt="Golab Jamun" loading="lazy">
+			  </figure>
+	  
+			  <div class="blog-content">
+	  
+			    <div class="blog-meta">
+			      <p class="blog-category">Cook</p>
+	  
+			      <span class="dot"></span>
+	  
+			      <time datetime="2022-02-23">2023/10/10</time>
+			    </div>
+	  
+			    <h3 class="h3 blog-item-title">Golab Jamun</h3>
+	  
+			    <p class="blog-text">
+				Gulab Jamun, with its delectable blend of deep-fried dough balls soaked in aromatic sugar syrup, is a true delight for the taste buds. The rich, melt-in-your-mouth texture and the sweet fragrance of cardamom-infused syrup create a symphony of flavors that leave you craving for more. Making Gulab Jamun with my wife was a delightful experience, as we bonded over the careful preparation of each perfectly round ball and shared the joy of creating this beloved Indian dessert together.
+			  </div>
+	  
+			</a>
+		      </li>
+
+		      <li class="blog-post-item">
+			<a href="#">
+	  
+			  <figure class="blog-banner-box">
+			    <img src="./assets/images/bhuri.PNG" alt="Cow stomach curry" loading="lazy">
+			  </figure>
+	  
+			  <div class="blog-content">
+	  
+			    <div class="blog-meta">
+			      <p class="blog-category">Cook</p>
+	  
+			      <span class="dot"></span>
+	  
+			      <time datetime="2022-02-23">2023/12/15</time>
+			    </div>
+	  
+			    <h3 class="h3 blog-item-title">Cow stomach curry</h3>
+	  
+			    <p class="blog-text">
+				This is one of my preferred meals. We enjoy it now and then or on special occasions. My wife has a talent for transforming cow stomach into a unique and delightful dish. When you take a bite, the taste is so captivating that you get lost in its flavors.
+				</p>
+			  </div>
+	  
+			</a>
+		      </li>
+		</ul>
+      
+	      </section>
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=miami,%20florida+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:i.m.mahmudul.haque@gmail.com" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
